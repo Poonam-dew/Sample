@@ -1,0 +1,30 @@
+.resources{
+  background-color: #fff292;
+  margin-top:7rem;
+  
+}
+.resourceList{
+  max-width:70%;
+ 
+  margin:0 auto;
+  padding:2rem 1rem;
+  display:grid;
+  
+  gap:0.8rem;
+  grid-template-rows: repeat( auto-fit, minmax(30px, 1fr) );
+}
+
+
+
+
+@media(max-width:780px){
+  .resourceList ,.resourcelink{
+    max-width: 90%;
+  }
+  .leftResource h2{
+    font-size: 0.8rem;
+  }
+  .leftResource h4{
+    font-size: 0.6rem;
+  }
+}
