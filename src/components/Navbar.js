@@ -15,7 +15,7 @@ const Navbar=({toggle})=>{
    if (window.location.pathname === "/") {
       setNavBg("white");
     } else {
-      setNavBg('#f1a2adfe')
+      setNavBg('#ffacac')
     }
   }, [location]);
   let navRef=useRef();
@@ -64,7 +64,7 @@ const Navbar=({toggle})=>{
            <NavLink to="/events">Events</NavLink>
           </li>
           <li>
-           <NavLink to="/learningSanskrit">learning Sanskrit</NavLink>
+           <NavLink to="/learningSanskrit">Learning Sanskrit</NavLink>
           </li>
           <li>
            <NavLink to="/courses">Courses</NavLink>

@@ -10,6 +10,7 @@ import LearningSanskrit from './Pages/LearningSanskrit.js';
 import Courses from './Pages/Courses.js';
 import Resources from './Pages/Resources.js';
 import SaastraSetu from  './Pages/SaastraSetu.js';
+import SignUp from  './components/SignUp.js';
 
 function App() {
   return (
@@ -24,7 +25,9 @@ function App() {
         <Route path="/learningSanskrit" element={<LearningSanskrit/>}/>
         <Route path="courses" element={<Courses/>}/> 
         <Route path="/ShaastraSetu" element={<SaastraSetu/>}/> 
-        <Route path="/resources" element={<Resources/>}/>         
+        <Route path="/resources" element={<Resources/>}/>  
+         <Route path="/signup" element={<SignUp/>}/>
+        
         
         </Routes>
       </BrowserRouter>

@@ -14,11 +14,12 @@ const CourseCard=({img ,heading ,subheading, info ,setModal_1 ,setButtonText1,bu
               <li>{info[0]}</li>
               <li>{info[1]}</li>
               <li>{info[2]}</li>
-              <li><span className="knowbtn" onClick={()=>{setModal_1(true)
+
+            </ul>
+            <div className="knowbtn" onClick={()=>{setModal_1(true)
                 setButtonText1(buttonText1 === 'KNOW MORE' ? 'CLOSE' : 'KNOW MORE');
 
-              }} >KNOW MORE</span></li>
-            </ul>
+              }} >KNOW MORE</div>
           </div>
         </div>
         

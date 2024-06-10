@@ -2,16 +2,16 @@ import React ,{ useState } from 'react';
 import '../Styles/CourseModal_1.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faTimes } from "@fortawesome/free-solid-svg-icons";
-import Old from '../assets/Old.jpg';
+
 const CourseModal_1=({onClose , AddId })=>{
   
   return(
     <div className="coursemodal_1" >
-     <div className="know_more_1"  id={AddId} style={{backgroundImage:`url(${Old})`}}>
+     <div className="know_more_1"  id={AddId}>
        <div className="detail_wrapper_1">
         <FontAwesomeIcon className="cross" icon={ faTimes } size="4xl" onClick={onClose} />
-       <h3>COURSE DETAILS</h3>
-       <h4>Overview</h4>
+       <h2>COURSE DETAILS</h2>
+       <h3>Overview</h3>
        <ul className="knowlist1">
          <li>In this course, five tools from the Samsaadhanii toolkit viz. Sandhi joiner and splitter, word generator and analyser and sentence analyser, will be introduced.</li>
          <li>At the end of the course, the participants will be asked to read and understand 5 shlokas from some popular text such as Raghuvaṃśa and provide various grammatical analysis such as sandhi, word analysis and sentential analysis.</li>
@@ -22,8 +22,8 @@ const CourseModal_1=({onClose , AddId })=>{
        </ul>
        </div>
        <div className='material_wrapper_1'>
-        <h3>COURSE MATERIALS</h3>
-        <h5>Feel free to access all the course materials here...</h5>
+        <h2>COURSE MATERIALS</h2>
+        <h3>Feel free to access all the course materials here...</h3>
         <ul className="material_links_1>">
           <li><a href="https://drive.google.com/drive/folders/1RsbqGy9rd_1V_c-wEwIwbK0ayp249uRE?usp=sharing" target="_blank">Course study materials</a></li>
            <li><a href="http://sanskrit.uohyd.ac.in/scl" target="_blank">Saṃsādhanī toolkit website (University server)</a></li> 

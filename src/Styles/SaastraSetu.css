@@ -9,12 +9,13 @@
 .saastrasetu{
   width:100%;
   
- 
-  background-position:center;
+   background-image:url('../assets/Background.jpg');
+  background-repeat:repeat-y;
+  background-color:#fcf7b2 ;
+  background-size: 100%;
+    
   padding-top:7rem;
-  background-repeat: no-repeat;
- background-size: cover;
- background-color:#fff292;
+  
  
   margin:0 auto;
   display:flex; 
@@ -51,7 +52,7 @@
   align-items: center;
   gap:1rem;
   text-align: center;
-  background-color: #fa866f;
+  background-color: #ffb2aa;
   color:black;
  padding: 2rem 1rem;
   box-shadow:1px 2px 13px 3px black;
@@ -70,10 +71,10 @@
   color:white;
   box-shadow: 0px 3px 7px black;
   font-weight:bold;
-  text-shadow:2px 3px 8px white;
+  
 }
 .a:hover{
-  background-color: pink;
+  background-color: #3d3b5a;
 }
 .saastraSessions .saastraSubHeading{
  font-family:'samarkan';
@@ -91,6 +92,11 @@
   font-weight:600;
 }
 @media(max-width:450px){
+  .saastrasetu{
+    background-image: url('../assets/Background_2.png');
+    background-repeat:repeat-y;
+    background-size: 100%;
+  }
   .saastrasetu .session_card{
     max-width:95%;
     grid-template-columns: repeat( auto-fit, minmax(210px, 1fr) );
