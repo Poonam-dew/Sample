@@ -1,0 +1,38 @@
+.team{
+  background-color: #fff2b1;
+}
+
+  .heading{
+    text-align: center;
+    margin-top: 1.5rem;
+    font-size: larger;
+}
+.images{
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+ 
+}
+  
+   
+.image {
+   
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    background-color: rgb(248, 241, 233);
+  width: 20rem;
+  margin: 1rem;
+ 
+ 
+
+ 
+   }
+   
+
+
+   @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+  }
