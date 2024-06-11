@@ -11,25 +11,8 @@ const Footer = () => {
         <div className="upper">
         <NavLink to="/Team"><p>Meet the Team</p></NavLink>
         </div>
-        <div className="lower">
-          <div className="left">
-            <div className="facebook">
-              <i
-                className="fa-brands fa-facebook"
-                style={{ color: "#2f56f4" }}
-              />
-
-              <p> Facebook</p>
-            </div>
-          </div>
-          <div className="right">
-            <div className="twitter">
-              <i class="fa-brands fa-x-twitter"></i>
-
-              <p>Twitter/X</p>
-            </div>
-          </div>
-        </div>
+       
+        
       </div>
       <div className="right">
         <h1> GET IN TOUCH</h1>

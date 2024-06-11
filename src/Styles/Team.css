@@ -1,38 +1,53 @@
-.team{
-  background-color: #fff2b1;
-}
-
-  .heading{
-    text-align: center;
-    margin-top: 1.5rem;
-    font-size: larger;
-}
-.images{
-  display:flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
+.team {
+  text-align: center;
+  background-image: url('../assets/Background1.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
  
 }
-  
-   
+
+.heading h1 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.images {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 10px;
+  justify-content: center;
+}
+
+.image-container {
+  position: relative;
+}
+
 .image {
-   
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    background-color: rgb(248, 241, 233);
-  width: 20rem;
-  margin: 1rem;
- 
- 
+  width: 90%;
+  height: auto;
+  display: block;
+  transition: opacity 0.3s ease;
+  margin: 1rem 1rem 1rem 1rem;
+}
 
- 
-   }
-   
+.hidden {
+  opacity: 0;
+}
 
+.hover-text {
+  display: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(255, 255, 0, 0.8);
+  color: black;
+  padding: 15px;
+  border-radius: 5px;
+}
 
-   @media screen and (max-width: 600px) {
-    .column {
-      width: 100%;
-      display: block;
-      margin-bottom: 20px;
-    }
-  }
+.image-container:hover .hover-text {
+  display: block;
+  font-size: xx-large;
+}

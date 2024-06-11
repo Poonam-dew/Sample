@@ -31,7 +31,7 @@ const Navbar=()=>{
            <NavLink to="/events">Events</NavLink>
           </li>
           <li>
-           <NavLink to="/learningSanskrit">learning Sanskrit</NavLink>
+           <NavLink to="/learningSanskrit">Learning Sanskrit</NavLink>
           </li>
           <li>
            <NavLink to="/courses">Courses</NavLink>

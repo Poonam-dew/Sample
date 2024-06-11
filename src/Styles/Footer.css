@@ -1,13 +1,13 @@
-.social-media{
-    background-color: #fff2b1;
-}
+
 
 .social-media {
+    background-color: pink;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     padding: 3rem;
-
+    
+  
 
 }
 .social-media .left{
@@ -18,7 +18,8 @@
     height: 4rem;
     width: 12rem;
     border-radius: 3rem;
-    background-color: #f7e0e0;
+    background-color: #f9a7d8;
+    
    
     
     text-align: center;
@@ -28,6 +29,7 @@
    
     box-shadow: 0px 4px 3px #a5a094;
     margin-left: 3.5rem;
+    margin-top: 7.5rem;
     p{
         background-color: inherit;
         border-radius: 3rem;
@@ -35,6 +37,14 @@
         margin: 0rem;
 
     }
+}
+.social-media .left .upper:hover{
+    height: 4.5rem;
+    width: 12.5rem;
+    p{
+        padding: 1.5rem;
+    }
+
 }
 
 .social-media .left .lower{

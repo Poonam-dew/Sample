@@ -1,5 +1,12 @@
+
 .home{
-    background-color: #FBFFB1;
+    /* background-color: #fff2b1; */
+    background-image: url('../assets/Background1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+   
 }
  
 
@@ -37,7 +44,7 @@
     justify-content: space-around;
     font-weight:bolder;
     font-size: larger;
-   
+  
 
 }
 .about-two .left{
@@ -125,11 +132,15 @@
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
 
 }
 .announcements-two .left{
     display: flex;
     flex-direction: column;
+    margin-top: 0.5rem;
+    
    
     font-size: larger;
     font-weight: 500;
@@ -139,16 +150,42 @@
     display: flex;
     flex-direction: column;
 
+    /* height: 5rem;
+    width: 40rem;
+    background-color:#FFACAC;
+    border-radius: 1rem; */
+    margin-bottom: 2rem;
+    
+}
+.announcements-two .right .text-one{
+    padding: 1rem;
     height: 5rem;
     width: 40rem;
     background-color:#FFACAC;
     border-radius: 1rem;
-    margin-bottom: 3rem;
-    margin-top: 3rem;
+    margin-bottom: 0.8rem;
+    text-align: center;
+   
 }
-.announcements-two .right .text{
+.announcements-two .right .text-two{
+    
     padding: 1rem;
+    height: 5rem;
+    width: 40rem;
+    background-color:#FFACAC;
+    border-radius: 1rem;
+    margin-bottom: 0.8rem;
 }
+.announcements-two .right .text-three{
+   
+    padding: 1rem;
+    height: 5rem;
+    width: 40rem;
+    background-color:#FFACAC;
+    border-radius: 1rem;
+    /* margin-bottom: 1rem; */
+}
+
 @media(max-width:935px){
     .box-one {
         
