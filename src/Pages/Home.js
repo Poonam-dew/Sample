@@ -3,6 +3,7 @@ import "../Styles/Home.css";
 
 const Home = () => {
   return (
+  
     <div className="home">
       <div>
         <h1 className="aboutUs">ABOUT US</h1>
@@ -64,15 +65,16 @@ const Home = () => {
         </div>
         <div className="right">
          
-          <div className="text">
+          <div className="text-one">
          <p> <h3>Geeta Samskritam course was successfully concluded on 4th September 2022.</h3></p>
           </div>
-          <div></div>
-          <div></div>
-          <div></div>
+          <div className="text-two"> </div>
+          <div className="text-three"></div>
+          
         </div>
       </div>
     </div>
+    
   );
 };
 export default Home;
