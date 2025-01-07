@@ -1,7 +1,9 @@
-import React from 'react';
+import React  from 'react';
 import '../Styles/FirstPage.css';
 import FirstPageImg from '../assets/FirstPage.jpg';
 const FirstPage=()=>{
+
+  
   return(
     <div className="firstPage">
       <div className="fContent" >
