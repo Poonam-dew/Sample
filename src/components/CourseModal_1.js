@@ -18,16 +18,16 @@ const CourseModal_1=({onClose , AddId })=>{
          <li>This will generate a confidence in the participants that with the help of various online tools they can read and understand the original Sanskrit texts.</li>
          <li>Learning will occur in two modes - Lectures and Project.</li>
          <li>Module-wise evaluation through Multiple Choice Questions (MCQ) will carry 70% weightage, while project work will have 30% weightage of the total evaluation.</li>
-         <li>For more details on the project work and the tentative duration/plan of the course, please refer to this document.<a href="https://www.dropbox.com/s/jr4l0ijuvkfmhea/Intro_to_Sa%E1%B9%83s%C4%81dhan%C4%AB-IITR.pdf?raw=1" target="_blank">Document</a></li>
+         <li>For more details on the project work and the tentative duration/plan of the course, please refer to this document.<a className='cli' href="https://www.dropbox.com/s/jr4l0ijuvkfmhea/Intro_to_Sa%E1%B9%83s%C4%81dhan%C4%AB-IITR.pdf?raw=1" target="_blank">Document</a></li>
        </ul>
        </div>
        <div className='material_wrapper_1'>
         <h2>COURSE MATERIALS</h2>
         <h3>Feel free to access all the course materials here...</h3>
         <ul className="material_links_1>">
-          <li><a href="https://drive.google.com/drive/folders/1RsbqGy9rd_1V_c-wEwIwbK0ayp249uRE?usp=sharing" target="_blank">Course study materials</a></li>
-           <li><a href="http://sanskrit.uohyd.ac.in/scl" target="_blank">Saṃsādhanī toolkit website (University server)</a></li> 
-             <li><a href="http://scl.samsaadhanii.in/scl" target="_blank">Saṃsādhanī toolkit website (Cloud)</a></li>
+          <li ><a className='cli' href="https://drive.google.com/drive/folders/1RsbqGy9rd_1V_c-wEwIwbK0ayp249uRE?usp=sharing" target="_blank">Course study materials</a></li>
+           <li ><a className='cli'href="http://sanskrit.uohyd.ac.in/scl" target="_blank">Saṃsādhanī toolkit website (University server)</a></li> 
+             <li ><a className='cli' href="http://scl.samsaadhanii.in/scl" target="_blank">Saṃsādhanī toolkit website (Cloud)</a></li>
           
         </ul>
         

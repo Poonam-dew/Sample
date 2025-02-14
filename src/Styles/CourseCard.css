@@ -1,79 +1,81 @@
-  .course_cards{
- 
-
-  justify-items: center;
- 
-  height:auto;
-  display:grid;
-  
-  gap:0.8rem;
-  grid-template-columns: repeat( auto-fit, minmax(250px,4900px) );
-  
-}
- .couse_card_item{
- width:100%;
- 
-  overflow: hidden;
-  display:flex;
-  flex-direction:column;
- justify-content: flex-start;
-  align-items: center;
-  gap:1rem;
-  
+.course_card {
+  display: flex;
+  flex-wrap: wrap;
   background-color: #ffb2aa;
-  color:black;
- padding: 1rem 0.7rem;
-  box-shadow:1px 2px 13px 3px black;
-  border-radius:10px;
-  margin:1rem;
-}
-.course_img{
-height:35rem;
- width:85%;
-  border-radius:10px;
-}
-.course_card_info{
-  width:90%;
- 
-  display:flex;
-  flex-direction: column;
+  color: black;
+  padding: 1rem;
+  box-shadow: 1px 2px 13px 3px black;
+  border-radius: 10px;
+  margin: 1rem;
+  gap: 1rem;
   align-items: center;
-  gap:0.7rem 0;
-  
 }
-.course_card_heading,.course_card_subheading{
- text-align: center;
+
+.course_img {
+  width: 40%;
+  max-width: 400px;
+  height: auto;
+  border-radius: 10px;
+  object-fit: cover;
 }
-.courselinks{
-  margin-top:1.8rem;
- font-size: 0.7rem;
-  display:flex;
+
+.course_card_info {
+  width: 55%;
+  display: flex;
   flex-direction: column;
-  align-items: flex-start;
-  gap:0.3rem 0;
-  
+  gap: 0.7rem;
 }
-.courselinks li{
+
+.course_card_heading,
+.course_card_subheading {
+  text-align: left;
+}
+
+.courselinks {
+  margin-top: 1rem;
+  font-size: 0.9rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.courselinks li {
   list-style: disc;
 }
-.knowbtn{
-  width:content-fit;
+
+.knowbtn {
+  align-self: flex-start;
   background-color: #fcf7b2;
-  color:black;
+  color: black;
   box-shadow: 0px 4px 3px #403b30;
-  font-size: 0.8rem;
+  font-size: 0.9rem;
   font-weight: bold;
-  padding:0.5rem;
- margin:1rem;
- border-radius: 20px;
-  
+  padding: 0.5rem;
+  border-radius: 20px;
+  cursor: pointer;
 }
-.knowbtn:hover{
+
+.knowbtn:hover {
   background-color: #fdc7a4;
-  
 }
-@media(max-width:450px){
-  .course_img{
-    height:16rem;
+
+@media (max-width: 768px) {
+  .course_card {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .course_img {
+    width: 80%;
+  }
+
+  .course_card_info {
+    width: 90%;
+    text-align: center;
+  }
+
+  .course_card_heading,
+  .course_card_subheading {
+    text-align: center;
   }
 }

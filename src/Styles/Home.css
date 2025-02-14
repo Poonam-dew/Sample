@@ -14,12 +14,13 @@
     font-family: Stencil Std;
     margin-top: 2rem;
     margin-left: 1.5rem;
+    /* background-color: #FE3287; */
 }
 .home .aboutUnder{
     display: flex;
     flex-direction: row;
     margin-left: 1.5rem;
-   
+   /* background-color: #FFACAC; */
 
 }
 .home .aboutUnder .left{
@@ -28,6 +29,7 @@
     border:0.2px solid black;
     background-color: black;
     margin-top: 0.3rem;
+
 }
 
 .home .aboutUnder .right{
@@ -44,7 +46,7 @@
     justify-content: space-around;
     font-weight:bolder;
     font-size: larger;
-  
+  /* background-color: aqua; */
 
 }
 .about-two .left{
